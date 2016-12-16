@@ -11,7 +11,7 @@ namespace asprs3.Models
     public class Activity
     {
         [Key]
-        public int FieldTrip_Id { get; set; }
+        public int Activity_Id { get; set; }
 
         [Required]
         [Display(Name = "Class Id")]
@@ -26,10 +26,6 @@ namespace asprs3.Models
         [Display(Name = "Activity Name")]
         public string ActivityName { get; set; }
 
-        [Required]
-        [DataType(DataType.Date)]
-        [Display(Name = "Submit By Date")]
-        public DateTime? SubmitByDate { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
