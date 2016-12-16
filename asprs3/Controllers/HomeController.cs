@@ -13,12 +13,5 @@ namespace asprs3.Controllers
             return View();
         }
 
-        public ActionResult Admin()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
     }
 }
