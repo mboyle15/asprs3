@@ -8,15 +8,8 @@ namespace asprs3.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Register()
+        public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult Admin()
-        {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
